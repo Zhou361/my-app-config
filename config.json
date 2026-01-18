@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "app_name": "极速影院",
+  "notice": "欢迎使用，加入频道获取最新接口与福利！",
+  "stats_config": {
+    "stats_id": "78r8f2z8es6",
+    "stats_api": "https://node95.aizhantj.com:21233/tjjs/",
+    "report_on_start": true,
+    "report_on_ad_click": true
+  },
+  "api_sources": [
+    "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/json/",
+    "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/json/",
+    "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json/"
+  ],
+  "ads": {
+    "show_ads": true,
+    "splash": {
+      "url": "https://pic1.imgdb.cn/item/696cc01ee8f4cc17ae666e9e.jpg",
+      "action_type": "web", 
+      "target": "https://t.me/+C-uQbIB1Xxg0OWRl",
+      "desc": "开屏广告"
+    },
+    "pre_roll": {
+      "url": "https://pic1.imgdb.cn/item/696cc01ee8f4cc17ae666ea1.png",
+      "action_type": "web",
+      "target": "https://t.me/+C-uQbIB1Xxg0OWRl",
+      "desc": "贴片广告"
+    },
+    "banner": {
+      "url": "https://pic1.imgdb.cn/item/696cc01ee8f4cc17ae666e9c.jpg",
+      "action_type": "web",
+      "target": "https://t.me/+C-uQbIB1Xxg0OWRl",
+      "desc": "底部横幅"
+    },
+    "detail": {
+      "url": "https://pic1.imgdb.cn/item/696cc01ee8f4cc17ae666ea0.jpg",
+      "action_type": "web",
+      "target": "https://t.me/+C-uQbIB1Xxg0OWRl",
+      "desc": "详情页推荐"
+    }
+  },
+  "category_mapping": {
+    "动作片": "电影",
+    "科幻片": "电影",
+    "国产剧": "连续剧",
+    "香港剧": "连续剧",
+    "综艺": "综艺",
+    "动漫": "动漫"
+  },
+  "filter_options": {
+    "areas": ["全部", "大陆", "香港", "台湾", "美国", "韩国", "日本"],
+    "years": ["全部", "2026", "2025", "2024", "2023", "2022", "2021"]
+  }
+}
